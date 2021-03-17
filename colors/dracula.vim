@@ -164,6 +164,7 @@ call s:h('DraculaOrangeBoldItalic', s:orange, s:none, [s:attrs.bold, s:attrs.ita
 call s:h('DraculaOrangeInverse', s:bg, s:orange)
 
 call s:h('DraculaPink', s:pink)
+call s:h('DraculaPinkBold', s:pink, s:none, [s:attrs.bold])
 call s:h('DraculaPinkItalic', s:pink, s:none, [s:attrs.italic])
 
 call s:h('DraculaPurple', s:purple)
@@ -280,7 +281,7 @@ hi! link Boolean Constant
 hi! link Float Constant
 
 hi! link Identifier DraculaFg
-hi! link Function DraculaGreen
+hi! link Function DraculaGreenItalic
 
 hi! link Statement DraculaPink
 hi! link Conditional DraculaPink
@@ -292,7 +293,7 @@ hi! link Exception DraculaPink
 
 hi! link PreProc DraculaPink
 hi! link Include DraculaPink
-hi! link Define DraculaPink
+hi! link Define DraculaPinkBold
 hi! link Macro DraculaPink
 hi! link PreCondit DraculaPink
 hi! link StorageClass DraculaPink
